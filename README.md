@@ -15,3 +15,9 @@ npm i
 ```
 npm start
 ```
+
+## Dev
+
+```
+npm run dev
+```
