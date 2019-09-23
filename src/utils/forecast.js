@@ -13,7 +13,7 @@ const forecast = (latitude, longitude, callback) => {
       const daily = body.daily;
       callback(
         undefined,
-        `${daily.data[0].summary} sСейчас ${currently.temperature} градусов. Возможность дождя ${currently.precipProbability}% `
+        `${daily.data[0].summary}. Сейчас ${currently.temperature} градусов. Возможность дождя ${currently.precipProbability}% `
       );
     }
   });
