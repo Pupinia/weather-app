@@ -13,5 +13,5 @@ npm i
 ## Run
 
 ```
-node src/api.js
+npm start
 ```
